@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="entire-grid">
+        <h1>ETCH-A-SKETCH</h1>
+        <div class="colors">
+            <button onclick="changeColor('black')">Black</button>
+            <button onclick="changeColor('red')" style="color: rgba(255, 0, 0, 1.0)">Red</button>
+            <button onclick="changeColor('blue')" style="color: rgba(0, 0, 255, 1.0)">Blue</button>
+            <button onclick="changeColor('yellow')" style="color: rgba(255, 255, 0, 1.0)">Yellow</button>
+            <button onclick="changeColor('green')" style="color: rgba(0, 128, 0, 1.0)">Green</button>
+            <button onclick="changeColor('shade')" style="color: rgba(0, 0, 0, 0.5)">Shade</button>
+            <button onclick="changeColor('rainbow')" style="color: purple">Rainbow</button>
+        </div>
+        <div class="grid-container"></div>
+        <div class="buttons">
+            <button onclick="resizeGrid(100)">Super Small</button>
+            <button onclick="resizeGrid(64)">Small</button>
+            <button onclick="resizeGrid(32)">Medium</button>
+            <button onclick="resizeGrid(16)">Large</button>
+        </div>
+        <button onclick="reset()">RESET</button>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

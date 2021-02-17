@@ -1,2 +1,5 @@
 # etch-a-sketch
-This is an Etch a Sketch that will fully function in the browser.
+
+Etch-a-Sketch v1.0
+
+This is a fully functioning Etch-a-Sketch that can change pixel size, and color, as well as gray-scale capabilities! This project is part of "The Oding Project" curriculum, found here: https://www.theodinproject.com/lessons/etch-a-sketch-project
